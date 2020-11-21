@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0.0",
+  "description": "demo of tailwind v2",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/styles/main.css -o public/build/tailwind.css"
+  },
+  "author": "zondazx",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.8",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.0"
+  }
+}
