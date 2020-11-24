@@ -4,7 +4,8 @@
   "description": "demo of tailwind v2",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/styles/main.css -o public/build/tailwind.css"
+    "build": "postcss src/styles/main.css -o public/build/tailwind.css",
+    "watch": "postcss src/styles/main.css -o public/build/tailwind.css --watch"
   },
   "author": "zondazx",
   "license": "MIT",
